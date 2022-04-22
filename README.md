@@ -36,20 +36,25 @@ Then, fine-tune is applied afterwards by fine-tuning at 10 Feature Extraction la
 The model training process can be evaluated via its training loss/accuracy vs validation loss/accuracy. During the feature extraction model training, the training accuracy (orange) and validation accuracy (blue) is slowly converging but the accuracy percentage is only in the range of 60-65% and same goes to graph of training and validation loss. The raining stop at epoch 26. Refer to figure below.
 
 Graph of Training and Validation Accuracy at Feature Extraction training stage. Both training and validation line converging.
+
 ![accuracy_at_feature_extraction_graph](https://user-images.githubusercontent.com/100177902/164656933-2e1feb69-ac5d-439e-b15e-52a5a5122329.png)
 
 Graph of Training and Validation Loss at Feature Extraction training stage. Both training and validation line converging.
+
 ![loss_at_feature_extraction_graph](https://user-images.githubusercontent.com/100177902/164663576-1497c151-6e89-46f6-9f91-b1425eaedaf0.png)
 
 At fine-tune stage, the model accuracy shows spike of increasing to 97% accuracy. The graph can be illustrated as in figure below.
 
 Graph of Training and Validation Accuracy at Fine-tune stage.
+
 ![accuracy_at_fine_tune_graph](https://user-images.githubusercontent.com/100177902/164675518-906c5cc9-9e6c-4d09-bf00-a4b199a119e2.png)
 
 Graph of Training and Validation Loss at Fine-tune stage.
+
 ![loss_at_fine_tune_graph](https://user-images.githubusercontent.com/100177902/164675595-48b66132-f875-4c4f-bbb6-b0f04c324e5a.png)
 
 The model is test with test data and the result is obtained as in figure below.
+
 ![result-image.](https://user-images.githubusercontent.com/100177902/164676145-c86116f7-93e7-4fa6-9739-560ec3c737e2.png)
 
 From the figure above, the test data image is used to make prediction. From the figure above we can say that the model predict the image pretty well.
