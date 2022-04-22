@@ -50,7 +50,6 @@ Graph of Training and Validation Loss at Fine-tune stage.
 ![loss_at_fine_tune_graph](https://user-images.githubusercontent.com/100177902/164675595-48b66132-f875-4c4f-bbb6-b0f04c324e5a.png)
 
 The model is test with test data and the result is obtained as in figure below.
-
 ![result-image.](https://user-images.githubusercontent.com/100177902/164676145-c86116f7-93e7-4fa6-9739-560ec3c737e2.png)
 
 From the figure above, the test data image is used to make prediction. From the figure above we can say that the model predict the image pretty well.
